@@ -1,0 +1,105 @@
+/* style.scss */
+
+@import 'bootstrap/_bootstrap.scss';
+
+$bgColor: #4990A6;
+$textColor: black;
+
+body{
+    background: $bgColor;
+    color: $textColor;
+}
+
+/*Begin Jumbotron Styles*/
+
+.jumbotron{
+    background-color: #29525E;
+    color: white;
+    height: 250px;
+    overflow: none;
+
+}
+
+.jumbotron h1{
+    margin-top: 60px;
+    text-align: center;
+}
+
+/*End Jumbotron Styles*/
+
+
+.container p{
+    font-size: 12px;
+    color: $textColor;
+}
+
+.container li{
+    list-style: none;
+    padding: 5px 0 5px 0;
+    font-size: 15px;
+}
+
+.container h3{
+    font-size: 15px;
+}
+
+.container a{
+    color: $textColor;
+}
+
+.col-md-4{
+    margin-top: 20px;
+    width: 33%;
+}
+
+.panel-body p{
+    font-size: 13px;
+}
+
+.col-md-5{
+    width: 100%;
+    align-content: center;
+}
+
+.progress{
+    align-content: center;
+}
+
+.progress p{
+    color: $textColor;
+}
+
+.col-md-6{
+    width: 100%;
+}
+.col-md-6 p{
+    text-align: center;
+    color: white;
+}
+
+@media(min-width: 1200px){
+
+}
+
+@media(max-width: 991px){
+
+}
+
+@media(min-width: 768px) and (max-width: 990px){
+    .col-md-4{
+        width: inherit;
+    }
+
+}
+
+@media(max-width: 768px){
+    .col-md-4{
+        width: inherit;
+    }
+}
+
+@media(max-width: 500px){
+    .col-md-4{
+        width: inherit;
+    }
+}
